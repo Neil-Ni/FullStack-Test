@@ -1,12 +1,63 @@
-## Welcome to GitHub Pages
+## Тестовое задание на позицию frontend-разработчик
 
-You can use the [editor on GitHub](https://github.com/kstepanov/FrontEnd-Test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Напутствие к тестовому заданию.
+При решении задания можно и нужно использовать любые готовые фреймворки и компоненты которые позволят сэкономить Вам время и решить задачу оптимальным образом. Однако просим Вас сопроводить решение краткой документацией о том, какие фреймворки или библиотеки были использованы и почему. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Рефакторинг
 
-### Markdown
+Задачи на работу с чужим кодом.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Задача №1
+
+Посмотрите на код:
+
+```javascript
+function func(s, a, b) {
+
+	if (s.match(/^$/)) {
+		return -1;
+	}
+	
+	var i = s.length -1;
+	var aIndex =     -1;
+	var bIndex =     -1;
+	
+	while ((aIndex == -1) && (bIndex == -1) && (i > 0)) {
+	    if (s.substring(i, i +1) == a) {
+	    	aIndex = i;
+    	}
+	    if (s.substring(i, i +1) == b) {
+	    	bIndex = i;
+    	}
+	    i = i - 1;
+	}
+	
+	if (aIndex != -1) {
+	    if (bIndex == -1) {
+	        return aIndex;
+	    }
+	    else {
+	        return Math.max(aIndex, bIndex);
+	    }
+	}
+	
+	if (bIndex != -1) {
+	    return bIndex;
+	}
+	else {
+	    return -1;
+	}
+}
+```
+
+Что можно улучшить? Как бы вы его переписали?
+
+
+## Практическое задание
+
+Данное задание не является полностью детализированными требованиями к функциональности системы т.к они не принципиальны в рамках данного задания и Вы можете делать определенные допущения. Цель данного задания оценить Ваши практические навыки разработки и проектирования клиентской части веб приложений. Все обращения к API/server-side can me mocked.
+
+
 
 ```markdown
 Syntax highlighted code block
@@ -26,12 +77,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Комментарии
 
-### Jekyll Themes
+Результат выполнения задания нужно будет оформить здесь же, на гитхабе. В качестве ответа не нужно присылать никаких(!) ZIP архивов и наборов файлов. Все ваши ответы должны быть оформлены на https://github.com/ . Вы присылаете только ссылку на ваш репозиторий. У нас в компании применяется GIT, и если вы его не знаете, вам стоит освоить базу самостоятельно. Если у вас еще нет аккаунта, то это хороший повод его завести.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kstepanov/FrontEnd-Test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Если есть вопросы, вы всегда их можете задать, связавшись с человеком, который выдал вам задание.
