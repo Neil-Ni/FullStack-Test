@@ -64,13 +64,13 @@ What can be improved here? How would you re-write it?
 Develop (HTML/CSS-coding and implement client-side logic) application interface for the terminal providing the service of refilling the balance of cellular operators. The application should have the following screens / basic input and control elements:
 
 1. Main screen
- - The list of supported telecom operators: MTS, Beeline, Megafon (implement flexibility to extend list of supported operators).
- - Click on certain operator should redirec to the refilling screen.
+  - The list of supported telecom operators: MTS, Beeline, Megafon (implement flexibility to extend list of supported operators).
+  - Click on certain operator should redirec to the refilling screen.
 2. Refill balance form
- - Identifier of the selected operator
- - Phone number input field (with mask and validation)
- - The field for entering the amount of refill in rubles (with mask and validation, min possible amount - 1 rub, max - 1000 rubles)
- - Submit button - should wait for a response from the server, show a message about the success or error. In case of success, return to the main screen. Success and error should be implemented randomly.
+  - Identifier of the selected operator
+  - Phone number input field (with mask and validation)
+  - The field for entering the amount of refill in rubles (with mask and validation, min possible amount - 1 rub, max - 1000 rubles)
+  - Submit button - should wait for a response from the server, show a message about the success or error. In case of success, return to the main screen. Success and error should be implemented randomly.
  
 
 ## Comments
