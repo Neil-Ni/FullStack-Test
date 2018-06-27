@@ -8,8 +8,6 @@ For resolving the task it is allowed and necessary to use any frameworks and com
 
 Task to review and improve existing code.
 
-### Task №1
-
 Please review code below:
 
 ```javascript
