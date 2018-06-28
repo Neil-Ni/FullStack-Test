@@ -8,7 +8,7 @@ For resolving the task it is allowed and necessary to use any frameworks and com
 
 Task to review and improve existing code.
 
-Please review code below:
+Please review the code below:
 
 ```javascript
 function func(s, a, b) {
