@@ -1,7 +1,7 @@
 # Test exan on frontend developer vacancy
 
 ## The guidance for the test task.
-For resolving the task it is allowed and necessary to use any frameworks and components which would save your time and allow to solve the task optimally. However, we ask you to provide short description of frameworks or libraries were used and what for.
+For resolving the task it is allowed and necessary to use any frameworks and components which would save your time and allow to solve the task optimally. However, we ask you to provide short description of frameworks or libraries that were used and what for.
 
 
 ## Refactoring
