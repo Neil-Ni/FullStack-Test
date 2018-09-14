@@ -65,7 +65,7 @@ Develop (HTML/CSS-coding and implement client-side logic) application interface 
 1. Authorization screen
   - It should allow to login by user name (email) and password (we dont have Sign Up functionality, so you can just add some test users to DB directly) 	
 2. Main screen
-  - The list of supported telecom operators: MTS, Beeline, Megafon (list of available operators shoudl be returned from the server).
+  - The list of supported telecom operators: MTS, Beeline, Megafon (list of available operators should be returned from the server).
   - Click on certain operator should redirect to the refilling screen.
 3. Refill balance form
   - Identifier of the selected operator
