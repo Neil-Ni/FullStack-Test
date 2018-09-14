@@ -69,6 +69,7 @@ Develop (HTML/CSS-coding and implement client-side logic) application interface 
   - Click on certain operator should redirect to the refilling screen.
 3. Refill balance form
   - Identifier of the selected operator
+  - Current balance 
   - Phone number input field (with mask and validation)
   - The field for entering the amount of refill in $ (with mask and validation, min possible amount - 1 $, max - 1000 $)
   - Submit button - should wait for a response from the server, show a message about the success or error. In case of success, return to the main screen. Server should keep and update balances of all users for all supported operators.
